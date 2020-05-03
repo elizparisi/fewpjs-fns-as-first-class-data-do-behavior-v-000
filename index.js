@@ -14,6 +14,8 @@ function handleClick(e) {
 
 function greet(timeString) {
   const updatedTime = timeString.split(":");
-  const hour = parseInt(updateTime[0])
+  const hour = parseInt(updatedTime[0]);
+  
+  if 
   
 }
