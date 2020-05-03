@@ -20,11 +20,11 @@ function greet(timeString) {
     message = "Good Morning";
   }
   
-  else if (hour >= 12 && hour <= 17) {
+  if (hour >= 12 && hour <= 17) {
     message = "Good Afternoon";
   }
   
-  else (hour > 17) {
+  if (hour > 17) {
     message = "Good Evening";
   }
   
