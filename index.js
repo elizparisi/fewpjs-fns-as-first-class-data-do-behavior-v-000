@@ -28,4 +28,5 @@ function greet(timeString) {
     message = "Good Evening"
   }
   
+  return message 
 }
