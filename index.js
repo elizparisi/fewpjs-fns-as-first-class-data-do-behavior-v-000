@@ -17,16 +17,16 @@ function greet(timeString) {
   const hour = parseInt(updatedTime[0]);
   
   if (hour < 12) {
-    message = "Good Morning"
+    message = "Good Morning";
   }
   
   else if (hour >= 12 && hour <= 17) {
-    message = "Good Afternoon"
+    message = "Good Afternoon";
   }
   
   else (hour > 17) {
-    message = "Good Evening"
+    message = "Good Evening";
   }
   
-  return message 
+  return message; 
 }
