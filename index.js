@@ -16,6 +16,6 @@ function greet(timeString) {
   const updatedTime = timeString.split(":");
   const hour = parseInt(updatedTime[0]);
   
-  if 
+  if hour > 12
   
 }
