@@ -13,6 +13,7 @@ function handleClick(e) {
 /* Write your implementation of displayMessage() */
 
 function greet(timeString) {
+  let message;
   const updatedTime = timeString.split(":");
   const hour = parseInt(updatedTime[0]);
   
