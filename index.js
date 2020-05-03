@@ -31,3 +31,7 @@ function greet(timeString) {
   
   return message; 
 }
+
+function displayMessage(message) {
+  
+}
